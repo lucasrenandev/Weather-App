@@ -76,7 +76,7 @@ body {
     color: #fff;
     font-size: 50px;
     font-weight: 500;
-    margin-bottom: -8px;
+    margin-bottom: -10px;
 }
 
 .city-box {
@@ -104,7 +104,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin-top: 35px;
+    margin-top: 40px;
     gap: 20px;
 }
 
@@ -128,7 +128,7 @@ body {
     color: #fff;
     font-size: 20px;
     font-weight: 400;
-    margin-top: -6px;
+    margin-top: -10px;
 }
 
 .col div p:last-child {

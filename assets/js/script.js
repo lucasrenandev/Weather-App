@@ -41,7 +41,6 @@ async function checkWeather(city, response, data) {
 // Obter dados do clima
 async function responseData(response, data) {
     data = await response.json();
-    console.log(data)
     temp.textContent = Math.round(data.main.temp) + "°c";
     city.textContent = data.name + ",";
     country.textContent = data.sys.country;
